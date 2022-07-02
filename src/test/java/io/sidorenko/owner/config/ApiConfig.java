@@ -3,8 +3,8 @@ package io.sidorenko.owner.config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "file:/tmp/auth.properties",
-        "classpath:config/api.properties"
+        "file:/tmp/api.properties",
+        "classpath:config/auth.properties"
 })
 public interface ApiConfig extends Config {
 
